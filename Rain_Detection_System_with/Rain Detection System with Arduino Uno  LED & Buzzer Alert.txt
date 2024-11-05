@@ -1,0 +1,35 @@
+Title: Rain Detection System with Arduino Uno | LED & Buzzer Alert
+
+Description:
+
+Welcome to Barcode! In this tutorial, we'll show you how to create a practical **rain detection system** using an **Arduino Uno**, an **LED**, a **buzzer**, and a **water sensor**. 🌧️🔧
+ Components Needed:
+- Arduino Uno
+- Water sensor (rain sensor)
+- LED
+- Buzzer
+- Jumper wires
+- Breadboard (optional)
+
+ Wiring Diagram:
+1. Water Sensor:
+   - Connect the VCC pin of the water sensor to the 5V pin on the Arduino.
+   - Connect the GND pin of the water sensor to the GND pin on the Arduino.
+   - Connect the signal pin (S) of the water sensor to an analog input pin (e.g., A0) on the Arduino.
+
+2. LED:
+   - Connect the positive leg (longer leg) of the LED to a digital pin (e.g., D8) on the Arduino through a current-limiting resistor (220Ω).
+   - Connect the negative leg (shorter leg) of the LED to the GND pin on the Arduino.
+
+3. Buzzer:
+   - Connect the positive terminal of the buzzer to a digital pin (e.g., D9) on the Arduino.
+   - Connect the negative terminal of the buzzer to the GND pin on the Arduino.
+
+
+ Explanation:
+- The water sensor reads the moisture level and outputs an analog value.
+- If the sensor value exceeds a certain threshold (e.g., 500), the LED lights up and the buzzer sounds.
+- You can adjust the threshold value based on your specific sensor and requirements.
+
+Whether you're a beginner or an experienced maker, this video will guide you through the process of building a rain detection system with ease. Don't forget to like, comment, and subscribe for more exciting DIY projects and tutorials!
+
